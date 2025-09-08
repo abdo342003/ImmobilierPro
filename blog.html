@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html class="light" dir="ltr" lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | FiftyFiveDigital - Conseils Marketing Digital</title>
+    <meta name="description" content="Découvrez nos articles sur le marketing digital, SEO, Google Ads, réseaux sociaux. Conseils d'experts pour booster votre présence en ligne.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="FiftyFiveDigital">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="FiftyFiveDigital | Blog Marketing Digital">
+    <meta property="og:description" content="Articles et conseils d'experts en marketing digital, SEO, publicité en ligne et développement web.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fiftyfivedigital.com/blog">
+    <meta property="og:image" content="https://fiftyfivedigital.com/Images/Fifty%20Five.png">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/blog-styles.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="canonical" href="https://fiftyfivedigital.com/blog">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "FiftyFiveDigital Blog",
+        "description": "Blog sur le marketing digital, SEO, Google Ads et développement web",
+        "url": "https://fiftyfivedigital.com/blog",
+        "publisher": {
+            "@type": "Organization",
+            "name": "FiftyFiveDigital",
+            "logo": "https://fiftyfivedigital.com/Images/Fifty%20Five.png"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link sr-only" tabindex="1">Skip to main content</a>
+    
+    <!-- Header -->
+    <header class="header" role="banner" id="site-header">
+        <div class="header-inner container">
+            <!-- Logo -->
+            <a href="/" class="logo" aria-label="FiftyFiveDigital - Retour à l'accueil">
+                <img src="/Fifty Five.png" alt="Logo FiftyFiveDigital" width="40" height="40">
+                <span>Fifty Five Digital</span>
+            </a>
+            
+            <!-- Desktop Navigation -->
+            <nav class="nav-desktop" aria-label="Navigation principale">
+                <ul role="menubar">
+                    <li role="none"><a href="/index" class="nav-link" role="menuitem" data-i18n="home">Accueil</a></li>
+                    <li role="none"><a href="/services" class="nav-link" role="menuitem" data-i18n="services">Services</a></li>
+                    <li role="none"><a href="/portfolio" class="nav-link" role="menuitem" data-i18n="portfolio">Portfolio</a></li>
+                    <li role="none"><a href="/about" class="nav-link" role="menuitem" data-i18n="about">À propos</a></li>
+                    <li role="none"><a href="/blog" class="nav-link" role="menuitem" data-i18n="blog" aria-current="page">Blog</a></li>
+                    <li role="none"><a href="/contact" class="nav-link" role="menuitem" data-i18n="contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Header Actions -->
+            <div class="nav-actions">
+                <!-- Language Switcher -->
+                <div class="language-switcher" role="group" aria-label="Sélection de langue">
+                    <button class="language-btn active" data-lang="fr" aria-pressed="true" aria-label="Français (actuel)">
+                        <span class="language-flag" role="img" aria-label="Drapeau français">🇫🇷</span>
+                        <span class="language-code">FR</span>
+                    </button>
+                    <button class="language-btn" data-lang="en" aria-pressed="false" aria-label="English">
+                        <span class="language-flag" role="img" aria-label="English flag">🇬🇧</span>
+                        <span class="language-code">EN</span>
+                    </button>
+                </div>
+                
+                <!-- Theme Toggle -->
+                <button class="theme-toggle" aria-label="Basculer le thème sombre/clair" aria-pressed="false">
+                    <span class="theme-icon" aria-hidden="true">☀️</span>
+                </button>
+                
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" aria-label="Ouvrir le menu mobile" aria-expanded="false" aria-controls="mobile-nav">
+                    <span class="menu-icon" aria-hidden="true">☰</span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <nav class="nav-mobile" id="mobile-nav" aria-label="Navigation mobile">
+            <button class="mobile-menu-close" aria-label="Fermer le menu">×</button>
+            <ul role="menu">
+                <li role="none"><a href="/index" class="nav-link" role="menuitem" data-i18n="home">Accueil</a></li>
+                <li role="none"><a href="/services" class="nav-link" role="menuitem" data-i18n="services">Services</a></li>
+                <li role="none"><a href="/portfolio" class="nav-link" role="menuitem" data-i18n="portfolio">Portfolio</a></li>
+                <li role="none"><a href="/about" class="nav-link" role="menuitem" data-i18n="about">À propos</a></li>
+                <li role="none"><a href="/blog" class="nav-link" role="menuitem" data-i18n="blog" aria-current="page">Blog</a></li>
+                <li role="none"><a href="/contact" class="nav-link" role="menuitem" data-i18n="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Blog Hero Section -->
+        <section class="blog-hero" aria-labelledby="hero-title">
+            <div class="blog-hero-bg" aria-hidden="true">
+                <div class="hero-shape hero-shape-1"></div>
+                <div class="hero-shape hero-shape-2"></div>
+                <div class="hero-shape hero-shape-3"></div>
+            </div>
+            <div class="container">
+                <div class="blog-hero-content">
+                    <div class="blog-hero-badge">
+                        <span role="img" aria-label="Icône blog">📝</span>
+                        <span data-i18n="blogBadge">Blog & Insights</span>
+                    </div>
+                    <h1 id="hero-title" class="blog-hero-title" data-i18n="blogTitle">Notre Blog</h1>
+                    <p class="blog-hero-description" data-i18n="blogDescription">
+                        Découvrez nos derniers articles, conseils d'experts et guides pratiques pour optimiser votre présence digitale et booster votre croissance en ligne.
+                    </p>
+                    <div class="blog-hero-stats" role="group" aria-label="Statistiques du blog">
+                        <div class="stat-item">
+                            <span class="stat-number" aria-label="50 articles">50+</span>
+                            <span class="stat-label" data-i18n="articlesLabel">Articles</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" aria-label="10 000 lecteurs">10k+</span>
+                            <span class="stat-label" data-i18n="readersLabel">Lecteurs</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" aria-label="5 catégories">5</span>
+                            <span class="stat-label" data-i18n="categoriesLabel">Catégories</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Blog Section -->
+        <section class="blog-section" aria-labelledby="blog-section-title">
+            <div class="container">
+                <h2 id="blog-section-title" class="sr-only">Articles du blog</h2>
+                
+                <!-- Blog Controls -->
+                <div class="blog-controls">
+                    <!-- Search -->
+                    <div class="blog-search-container">
+                        <div class="search-input-wrapper">
+                            <label for="blog-search" class="sr-only">Rechercher dans les articles</label>
+                            <input 
+                                type="text" 
+                                id="blog-search"
+                                class="blog-search" 
+                                placeholder="Rechercher un article..."
+                                aria-describedby="search-help"
+                            >
+                            <span class="search-icon" aria-hidden="true">🔍</span>
+                        </div>
+                        <div id="search-help" class="sr-only">Tapez pour rechercher dans les titres et contenus des articles</div>
+                    </div>
+                    
+                    <!-- Categories -->
+                    <div class="blog-categories" role="group" aria-label="Filtrer par catégorie">
+                        <button class="category-btn active" data-category="all" aria-pressed="true">
+                            <span class="category-icon" aria-hidden="true">📚</span>
+                            <span class="category-text" data-i18n="allCategories">Tous</span>
+                            <span class="category-count" aria-label="6 articles">6</span>
+                        </button>
+                        <button class="category-btn" data-category="seo" aria-pressed="false">
+                            <span class="category-icon" aria-hidden="true">🔍</span>
+                            <span class="category-text" data-i18n="seoCategory">SEO</span>
+                            <span class="category-count" aria-label="2 articles">2</span>
+                        </button>
+                        <button class="category-btn" data-category="google-ads" aria-pressed="false">
+                            <span class="category-icon" aria-hidden="true">📊</span>
+                            <span class="category-text" data-i18n="googleAdsCategory">Google Ads</span>
+                            <span class="category-count" aria-label="1 article">1</span>
+                        </button>
+                        <button class="category-btn" data-category="social-media" aria-pressed="false">
+                            <span class="category-icon" aria-hidden="true">📱</span>
+                            <span class="category-text" data-i18n="socialMediaCategory">Réseaux Sociaux</span>
+                            <span class="category-count" aria-label="1 article">1</span>
+                        </button>
+                        <button class="category-btn" data-category="web-dev" aria-pressed="false">
+                            <span class="category-icon" aria-hidden="true">💻</span>
+                            <span class="category-text" data-i18n="webDevCategory">E-commerce</span>
+                            <span class="category-count" aria-label="1 article">1</span>
+                        </button>
+                        <button class="category-btn" data-category="branding" aria-pressed="false">
+                            <span class="category-icon" aria-hidden="true">🎨</span>
+                            <span class="category-text" data-i18n="brandingCategory">Branding</span>
+                            <span class="category-count" aria-label="1 article">1</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Blog Grid -->
+                <div class="blog-grid" id="blog-grid">
+                    <!-- Blog Article 1 -->
+                    <article class="blog-card featured-card" data-category="seo" data-id="seo-trends-2024">
+                        <div class="blog-image">
+                            <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                                 alt="Tendances SEO 2024 - Graphiques et analyses" 
+                                 loading="lazy">
+                            <div class="blog-category seo-category">
+                                <span class="category-icon" aria-hidden="true">🔍</span>
+                                <span data-i18n="seoCategory">SEO</span>
+                            </div>
+                            <div class="featured-badge">
+                                <span class="badge-icon" aria-hidden="true">⭐</span>
+                                <span data-i18n="featuredLabel">À la une</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <div class="author-info">
+                                    <img src="/Images/Yassine-scaled.jpg" alt="Photo de Yassine Khoubbane" class="author-avatar">
+                                    <span class="blog-author" data-i18n="byAuthor">Par Yassine Khoubbane</span>
+                                </div>
+                                <div class="blog-details">
+                                    <time datetime="2024-01-15" class="blog-date">15 janvier 2024</time>
+                                    <span class="blog-separator" aria-hidden="true">•</span>
+                                    <span class="blog-read-time" data-i18n="readTime">8 min de lecture</span>
+                                    <span class="blog-separator" aria-hidden="true">•</span>
+                                    <span class="blog-views">1.2k vues</span>
+                                </div>
+                            </div>
+                            <h3 class="blog-title">
+                                <a href="/blog/tendances-seo-2024" data-i18n="seoArticleTitle">
+                                    Les tendances SEO à suivre en 2024
+                                </a>
+                            </h3>
+                            <p class="blog-excerpt" data-i18n="seoArticleExcerpt">
+                                Découvrez les dernières évolutions des algorithmes Google et comment adapter votre stratégie SEO pour rester compétitif dans un paysage digital en constante évolution.
+                            </p>
+                            <div class="blog-tags">
+                                <span class="tag">SEO</span>
+                                <span class="tag">Google</span>
+                                <span class="tag">Algorithmes</span>
+                            </div>
+                            <div class="blog-footer">
+                                <a href="/blog/tendances-seo-2024" class="read-more-btn">
+                                    <span data-i18n="readMore">Lire l'article</span>
+                                    <span class="arrow" aria-hidden="true">→</span>
+                                </a>
+                                <div class="blog-actions">
+                                    <button class="action-btn like-btn" aria-label="J'aime cet article" aria-pressed="false">
+                                        <span class="icon" aria-hidden="true">🤍</span>
+                                        <span class="action-count">24</span>
+                                    </button>
+                                    <button class="action-btn share-btn" aria-label="Partager cet article">
+                                        <span class="icon" aria-hidden="true">↗</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <!-- Additional blog articles would follow similar structure -->
+                    <!-- ... (other articles) ... -->
+                </div>
+                
+                <!-- Load More Section -->
+                <div class="load-more-section">
+                    <button class="load-more-btn" aria-describedby="load-more-info">
+                        <span class="btn-text" data-i18n="loadMore">Charger plus d'articles</span>
+                        <span class="btn-icon" aria-hidden="true">↓</span>
+                    </button>
+                    <p id="load-more-info" class="load-more-info" data-i18n="loadMoreInfo">
+                        Affichage de 6 articles sur 50+
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Newsletter Section -->
+        <section class="newsletter-section" aria-labelledby="newsletter-title">
+            <div class="container">
+                <div class="newsletter-content">
+                    <div class="newsletter-text">
+                        <div class="newsletter-icon" aria-hidden="true">📧</div>
+                        <h2 id="newsletter-title" data-i18n="newsletterTitle">
+                            Restez informé de nos derniers articles
+                        </h2>
+                        <p data-i18n="newsletterDescription">
+                            Recevez chaque semaine nos meilleurs conseils et analyses directement dans votre boîte mail. Pas de spam, que du contenu de qualité.
+                        </p>
+                    </div>
+                    <div class="newsletter-form">
+                        <form class="subscribe-form" aria-label="Inscription à la newsletter">
+                            <div class="form-group">
+                                <label for="newsletter-email" class="sr-only">Votre adresse email</label>
+                                <input 
+                                    type="email" 
+                                    id="newsletter-email"
+                                    class="newsletter-input" 
+                                    placeholder="Votre adresse email"
+                                    required
+                                    aria-describedby="newsletter-privacy"
+                                >
+                                <button type="submit" class="newsletter-btn">
+                                    <span data-i18n="subscribeBtn">S'abonner</span>
+                                    <span class="btn-arrow" aria-hidden="true">→</span>
+                                </button>
+                            </div>
+                            <p id="newsletter-privacy" class="newsletter-privacy" data-i18n="privacyNote">
+                                Nous respectons votre vie privée. Désabonnez-vous à tout moment.
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <!-- Footer content would go here -->
+    </footer>
+    
+    <!-- Floating Contact -->
+    <div class="floating-contact" role="complementary" aria-label="Contact rapide">
+        <button class="floating-btn toggle-contact-options" aria-label="Options de contact rapide" aria-expanded="false" aria-controls="contact-options">
+            <span aria-hidden="true">✉️</span>
+        </button>
+        <div class="contact-options" id="contact-options">
+            <a href="https://wa.me/+212649807706" class="whatsapp-btn" aria-label="Contacter via WhatsApp" target="_blank" rel="noopener noreferrer">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" loading="lazy">
+            </a>
+            <a href="tel:+212649807706" class="call-btn" aria-label="Appeler maintenant">
+                <img src="https://cdn-icons-png.flaticon.com/512/3059/3059518.png" alt="Téléphone" loading="lazy">
+            </a>
+        </div>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="js/blog-core.js"></script>
+    <script src="js/blog-features.js"></script>
+    <script src="js/i18n.js"></script>
+</body>
+</html>
